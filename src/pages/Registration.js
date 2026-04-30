@@ -128,7 +128,6 @@ function Registration() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setSubmitted(true);
     if (!validate()) return;
 
     // Store data in sessionStorage for the Success page

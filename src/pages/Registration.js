@@ -53,7 +53,6 @@ function Registration() {
   const navigate = useNavigate();
   const [form, setForm] = useState(INITIAL_FORM);
   const [errors, setErrors] = useState(INITIAL_ERRORS);
-  const [submitted, setSubmitted] = useState(false);
 
   const validate = () => {
     const errs = { ...INITIAL_ERRORS };
